@@ -1,0 +1,24 @@
+
+h1{
+    font-family: "Knewave", serif;
+    color: white;
+    text-shadow: 
+        2px 2px 0px rgb(82, 2, 122),   /* Horizontal and vertical shadow for outline */
+        -2px -2px 0px rgb(82, 2, 122),  /* Top-left shadow */
+        2px -2px 0px rgb(82, 2, 122),   /* Bottom-left shadow */
+        -2px 2px 0px rgb(82, 2, 122);   /* Top-right shadow */
+    
+}
+
+.title-background{
+    background-color: rgba(92, 0, 153, 0.5); /* Black with 50% transparency */
+    padding: 10px 20px; /* Adjust padding around the title */
+    display: inline-block; /* Makes the background size fit the text */
+    border-radius: 5px; /* Optional: adds rounded corners to the background */
+
+}
+
+p{
+    font-family: "Courgette", serif;
+    font-size:30px;
+}
